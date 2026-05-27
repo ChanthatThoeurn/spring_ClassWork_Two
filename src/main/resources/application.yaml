@@ -1,0 +1,20 @@
+myapp:
+  myapp-version: 2
+  myapp-info: successfully
+  myapp-description: this is first lesion
+  myapp-name: needME
+
+server:
+  port: 9999
+spring:
+  application:
+    name: istad.co.application
+  threads:
+    virtual:
+       enabled: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
