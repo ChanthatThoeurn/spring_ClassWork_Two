@@ -1,6 +1,13 @@
-package org.example.istad_co_application.dto.respone;
+package org.example.istad_co_application.dto.response;
 
-public record CoffeeRespone(
+import org.example.istad_co_application.domain.Coffee;
 
+import java.util.List;
+
+public record CoffeeResponse(
+    String name,
+    Double price,
+    String description
 ) {
+
 }

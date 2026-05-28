@@ -5,7 +5,7 @@ myapp:
   myapp-name: needME
 
 server:
-  port: 9999
+  port: 9988
 spring:
   application:
     name: istad.co.application

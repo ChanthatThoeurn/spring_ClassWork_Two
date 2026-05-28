@@ -11,8 +11,8 @@ import lombok.Setter;
 @NoArgsConstructor
 @AllArgsConstructor
 public class Coffee {
-    @JsonIgnore
     private Integer id;
     private String name;
+    private Double price;
     private String description;
 }
